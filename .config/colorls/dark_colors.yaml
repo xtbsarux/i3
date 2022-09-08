@@ -1,0 +1,64 @@
+#color0='#111b23'
+#color1='#4B5569'
+#color2='#635C6E'
+#color3='#A9626B'
+#color4='#5B7294'
+#color5='#A67D87'
+#color6='#6687AF'
+#color7='#b5c7d8'
+#color8='#7e8b97'
+#color9='#4B5569'
+#color10='#635C6E'
+#color11='#A9626B'
+#color12='#5B7294'
+#color13='#A67D87'
+#color14='#6687AF'
+#color15='#b5c7d8'
+
+# Main Colors
+unrecognized_file: yellow
+recognized_file:   blue
+executable_file:   '#BF616A'
+#dir:               dodgerblue
+dir: '#c5d7e3'
+
+# Link
+dead_link: red
+link:      cyan
+
+# special files
+socket:    green
+blockdev:  green
+chardev:   green
+
+# Access Modes
+write:     '#E7C78D'
+read:      '#A9626B'
+exec:      '#FFFFFF'
+no_access: '#A9626B'
+
+# Age
+day_old:     '#7193b8'
+hour_old:    '#5e81ac'
+no_modifier: '#4c566a'
+
+# File Size
+file_large:  '#be838e'
+file_medium: '#bf616a'
+file_small:  '#7d4b51'
+
+# Random
+report: white
+user:   '#FFFFFF'
+tree:   cyan
+empty:  white
+error:  white
+normal: white
+inode: white
+
+# Git
+addition:     chartreuse
+modification: darkkhaki
+deletion:     darkred
+untracked:    darkorange
+unchanged:    forestgreen
