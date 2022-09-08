@@ -28,10 +28,21 @@ make
 sudo make install
 ```
 ### Dependencies
-* feh picom rofi polybar pywal zsh
+* feh picom rofi polybar zsh
 ```sh
-sudo apt install feh picom rofi polybar pywal zsh
+sudo apt install feh picom rofi polybar zsh
 ```
+* pywal
+```sh
+git clone https://github.com/dylanaraps/pywal
+cd pywal
+pip3 install --user .
+
+# Add local 'pip' to PATH:
+# (In your .bashrc, .zshrc etc)
+export PATH="${PATH}:${HOME}/.local/bin/"
+```
+
 * [feh](https://github.com/derf/feh)
 * [picom](https://github.com/yshui/picom)
 * [rofi](https://github.com/davatorium/rofi)
