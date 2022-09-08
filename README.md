@@ -71,10 +71,10 @@ export PATH="${PATH}:${HOME}/.local/bin/"
 <!-- TODO -->
 ## TODO
 
-- [ ] Add Fonts
+- [x] Add Fonts
 
-  - [ ] for polybar
+  - [x] for polybar
   
-  - [ ] for .zsh
+  - [x] for .zsh
 
 - [ ] Check if everything works on new machine
